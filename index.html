@@ -4,24 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TMDB Movie Diary WD-65</title>
+
     <script src="main.js" defer></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+<body class="bg-gray-900 text-white">
      <!-------------------------------------- header section ----------------------------------------->
-     <header></header>
-    <body class="bg-gray-900 text-white">
+     <header>
+ 
+   
+
+    <nav
+      class="flex justify-between bg-black text-white p-4 m-8 w-[70%] mx-auto"
+    >
+      <div>
+        <a href="index.html">Logo</a>
+      </div>
+      <ul class="flex justify-end gap-4 mr-6">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Journal</a></li>
+      </ul>
+    </nav>
+</header>
+    <!--------------------------------------- main section ------------------------------------------>
+ 
+       
       <main class="p-4">
         <h2 class="text-2xl font-semibold mb-4">Popular Movies</h2>
         <div id="movies" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <!-- Movie cards will appear here -->
         </div>
       </main>
-   
-  
+    
+    
+
     <!-------------------------------------- footer section ----------------------------------------->
     <footer></footer>
   </body>
