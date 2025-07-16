@@ -1,3 +1,16 @@
+//Home Button Redirecting
+
+const redirectButton = document.getElementById("directing");
+const secondRedirecting = document.getElementById("redirecting2");
+
+redirectButton.addEventListener("submit", () => {
+  window.location.href = "journal.html";
+});
+
+secondRedirecting.addEventListener("click", () => {
+  window.location.href = "journal.html";
+});
+
 const API_KEY = "ae9417b72a04e975455b2ed2ac2a7001";
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
