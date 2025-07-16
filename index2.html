@@ -27,21 +27,25 @@
             <li><a href="#">Journal</a></li>
           </ul>
         </nav>
-        <div class="w-fit mx-auto p-40 space-y-4 text-center">
+        <div class="max-w-4l mx-auto p-40 space-y-4 text-center">
           <h1 class="text-4xl">Unlimited movies, TV shows, and more</h1>
           <p>Starts at €4.99. Cancel anytime.</p>
           <p class="text-lg">
             Ready to watch? Enter your email to create or restart your
             membership.
           </p>
-          <div class="flex gap-2 w-fit mx-auto">
-            <textarea
-              class="text-white"
-              name="email"
-              id="email"
-              placeholder="Email address"
-            ></textarea
-            ><button class="bg-red-700 p-2" type="submit">Get started</button>
+          <div class="gap-2 w-fit mx-auto">
+            <form class="flex gap-2">
+              <textarea
+                class="text-white"
+                name="email"
+                id="email"
+                placeholder="Email address"
+              ></textarea
+              ><button id="directing" class="bg-red-700 p-2" type="submit">
+                Get started
+              </button>
+            </form>
           </div>
         </div>
       </div>
@@ -61,7 +65,9 @@
             minus aperiam qui dolore?
           </p>
 
-          <button class="bg-red-700 p-2" type="submit">Get started</button>
+          <button id="redirecting2" class="bg-red-700 p-2" type="submit">
+            Get started
+          </button>
         </div>
         <img class="w-100" src="/assets/two.jpg" alt="" />
       </div>
