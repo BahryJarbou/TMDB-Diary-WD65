@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TMDB Movie Diary WD-65</title>
-
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
@@ -42,11 +41,52 @@
     </main>
 
     <!-------------------------------------- footer section ----------------------------------------->
-    <footer></footer>
+
 
       <script src="main.js" defer></script>
 
 
+    <footer class="bg-gray-900 text-gray-200">
+      <div
+        class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+      >
+        <div>
+          <h2 class="text-xl font-bold mb-4">Movie Diary</h2>
+          <p class="text-sm">
+            Keep track of your favourite movies, discover new hits, and add
+            personal notes.
+          </p>
+        </div>
 
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Explore</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:underline">Popular Movies</a></li>
+            <li><a href="#" class="hover:underline">Top Rated</a></li>
+            <li><a href="#" class="hover:underline">Upcoming</a></li>
+            <li><a href="#" class="hover:underline">Search</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-4">My Journal</h3>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a href="journal.html" class="hover:underline">View Favourites</a>
+            </li>
+            <li><a href="#" class="hover:underline">Add Notes</a></li>
+            <li><a href="#" class="hover:underline">Manage Entries</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Info</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:underline">Credits</a></li>
+            <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
