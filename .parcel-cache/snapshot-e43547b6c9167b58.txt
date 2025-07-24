@@ -1,31 +1,35 @@
-4396
+4404
 67/home/bahry/workspace/github.com/TMDB-Diary-WD65/tailwind.config.js1753208580936512069 0
 58/home/bahry/workspace/github.com/TMDB-Diary-WD65/README.md1753208580936512069 0
 61/home/bahry/workspace/github.com/TMDB-Diary-WD65/package.json1753352394353002263 0
 70/home/bahry/workspace/github.com/TMDB-Diary-WD65/.vscode/settings.json1753208580936512069 0
 62/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/index.css1753352394353002263 0
 60/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/main.js1753356863958693754 0
-63/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/storage.js1753356863958693754 0
-58/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/ui.js1753356863958693754 0
+63/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/storage.js1753357599994774895 0
+58/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/ui.js1753357881910796191 0
 52/home/bahry/workspace/github.com/TMDB-Diary-WD65/src1753356863958693754 1
 71/home/bahry/workspace/github.com/TMDB-Diary-WD65/assets/filter_icon.png1753208580936512069 0
 66/home/bahry/workspace/github.com/TMDB-Diary-WD65/assets/bg_img.jpg1753208580936512069 0
 63/home/bahry/workspace/github.com/TMDB-Diary-WD65/assets/two.jpg1753208580936512069 0
 55/home/bahry/workspace/github.com/TMDB-Diary-WD65/assets1753208580936512069 1
 61/home/bahry/workspace/github.com/TMDB-Diary-WD65/journal.html1753357130642742481 0
-70/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/two.3b4a2a82.jpg1753352394353002263 0
-86/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.61d3354a.css.map1753352394349002260 0
+77/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.08e95b6f.js.map1753361617959099676 0
+70/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/two.3b4a2a82.jpg1753360883551014433 0
+86/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.61d3354a.css.map1753361324026882795 0
 81/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.75bf997d.js1753357134746743614 0
-81/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.14ca6d56.js1753352394349002260 0
+86/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.20716c8e.css.map1753361617959099676 0
+81/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.14ca6d56.js1753361306942298046 0
+81/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.435ff989.js1753361617955099663 0
 70/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/two.c6e6c471.jpg1753357134742743613 0
 77/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.de158e3a.js.map1753352394353002263 0
-64/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/index.html1753357134746743614 0
+64/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/index.html1753361617955099663 0
 85/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.75bf997d.js.map1753357134750743615 0
+85/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.435ff989.js.map1753361617959099676 0
 82/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.1ab0abb5.css1753357134746743614 0
 86/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.1ab0abb5.css.map1753357134750743615 0
 77/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.060f90eb.js.map1753357134750743615 0
-78/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/search_icon.a9beb93a.png1753352394353002263 0
-53/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist1753357134750743615 1
+78/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/search_icon.a9beb93a.png1753360681930995654 0
+53/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist1753361617959099676 1
 99/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@isaacs/fs-minipass/dist/esm/index.js1753349709973759208 0
 103/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@isaacs/fs-minipass/dist/esm/index.js.map1753349710001759262 0
 101/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@isaacs/fs-minipass/dist/esm/index.d.ts1753349710009759278 0
@@ -284,7 +288,7 @@
 87/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/postcss/lib/document.d.ts1753349710045759347 0
 97/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/http3.js1753348908088158618 0
 107/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/wasm-tail-calls.js1753348908268159113 0
-61/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/main2.js1753348764395763099 0
+61/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/main2.js1753361306894288457 0
 108/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/childnode-remove.js1753348907892158081 0
 105/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/web-bluetooth.js1753348908268159113 0
 107/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/insert-adjacent.js1753348908104158663 0
@@ -568,7 +572,7 @@
 93/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/regions/LK.js1753348908128158728 0
 87/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/nanoid/async/package.json1753349710005759270 0
 97/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/regions/alt-ww.js1753348907772157750 0
-59/home/bahry/workspace/github.com/TMDB-Diary-WD65/index.html1753357058506734517 0
+59/home/bahry/workspace/github.com/TMDB-Diary-WD65/index.html1753361323974886116 0
 89/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@lezer/common/dist/index.js1753348907688157520 0
 93/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/regions/PS.js1753348908200158926 0
 93/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/regions/NL.js1753348908168158838 0
@@ -1003,7 +1007,7 @@
 137/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-node/parcel_sourcemap_wasm.js1753348907700157553 0
 141/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-web/parcel_sourcemap_wasm_bg.wasm1753348907996158366 0
 124/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-web/package.json1753348907760157718 0
-82/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.61d3354a.css1753352394349002260 0
+82/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.61d3354a.css1753361324022883050 0
 111/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-web1753348907992158355 1
 102/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/source-map/parcel_sourcemap_wasm1753348907708157575 1
 111/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/source-map/dist/wasm-bindings-web.js.flow1753348907628157355 0
@@ -1873,6 +1877,7 @@
 116/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_class_private_method_init/package.json1753348908028158454 0
 96/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/error-overlay/package.json1753348907784157784 0
 87/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/semver/functions/valid.js1753348907800157828 0
+73/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.1fcc916e.js1753360681886995655 0
 93/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/core/test/utils.test.js1753348908020158431 0
 87/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/semver/ranges/simplify.js1753348907788157794 0
 94/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/tapable/lib/SyncWaterfallHook.js1753349710001759262 0
@@ -2409,6 +2414,7 @@
 104/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@isaacs/fs-minipass/dist/commonjs/index.js1753349709957759177 0
 89/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@alloc/quick-lru/index.d.ts1753349709965759192 0
 129/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/msgpackr-extract/node_modules/.bin/node-gyp-build-optional-packages1753348908604160036 0
+77/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.1fcc916e.js.map1753360681890995655 0
 113/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@jridgewell/resolve-uri/dist/types/resolve-uri.d.ts1753349709981759223 0
 110/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/speech-recognition.js1753348908224158992 0
 80/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/plugin/src1753348907604157289 1
@@ -2589,7 +2595,7 @@
 83/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/utils/LICENSE1753348907600157278 0
 98/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/esm/_to_property_key.js1753348907940158212 0
 89/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/tar/dist/esm/types.d.ts.map1753349710093759440 0
-63/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/network.js1753356863958693754 0
+63/home/bahry/workspace/github.com/TMDB-Diary-WD65/src/network.js1753359173686885961 0
 90/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/jiti/lib/jiti-register.d.mts1753349710085759424 0
 90/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/type-fest/source/opaque.d.ts1753348907728157629 0
 80/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/nullthrows/LICENSE1753348907564157179 0
@@ -3206,7 +3212,7 @@
 110/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/core/test/fixtures/main-mjs/package.json1753348908052158520 0
 98/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/bundler-default/package.json1753348907672157476 0
 101/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_class_private_field_get1753348908012158410 1
-66/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.html1753357134746743614 0
+66/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.html1753361617955099663 0
 118/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/src/_class_apply_descriptor_destructure.mjs1753348908160158816 0
 113/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@jridgewell/trace-mapping/types/binary-search.d.mts1753349710033759323 0
 114/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_class_private_field_get/package.json1753348908016158421 0
@@ -3412,7 +3418,7 @@
 101/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/tar/dist/esm/strip-absolute-path.js.map1753349710089759432 0
 107/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_class_apply_descriptor_update1753348908000158376 1
 111/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/transformer-babel/lib/BabelTransformer.js1753348907640157388 0
-85/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.14ca6d56.js.map1753352394349002260 0
+85/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.14ca6d56.js.map1753361306942298046 0
 98/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_class_name_tdz_error1753348908008158399 1
 126/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_create_for_of_iterator_helper_loose/package.json1753348908044158497 0
 85/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_extends1753348908060158542 1
@@ -3479,6 +3485,7 @@
 100/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/bloburls.js1753348907848157960 0
 89/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/events/src/types.js1753348907668157465 0
 94/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/esm/_export_star.js1753348907904158113 0
+82/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/TMDB-Diary-WD65.20716c8e.css1753361617955099663 0
 108/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/_/_apply_decs_2203_r/package.json1753348907960158267 0
 101/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@swc/helpers/esm/_async_to_generator.js1753348907864158003 0
 152/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-no-engines/package.json1753348908056158531 0
@@ -4268,6 +4275,7 @@
 104/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/packager-js/src/ESMOutputFormat.js1753348907680157499 0
 95/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/tar/dist/commonjs/read-entry.d.ts1753349710105759464 0
 100/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/packager-js/src/dev-prelude.js1753348907620157333 0
+73/home/bahry/workspace/github.com/TMDB-Diary-WD65/dist/journal.08e95b6f.js1753361617955099663 0
 96/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/packager-js/src/helpers.js1753348907708157575 0
 104/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/@parcel/packager-js/src/CJSOutputFormat.js1753348907596157268 0
 105/home/bahry/workspace/github.com/TMDB-Diary-WD65/node_modules/caniuse-lite/data/features/ambient-light.js1753348907780157773 0

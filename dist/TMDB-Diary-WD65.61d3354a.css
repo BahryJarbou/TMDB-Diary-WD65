@@ -87,8 +87,6 @@
     --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
-    --text-9xl: 8rem;
-    --text-9xl--line-height: 1;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
@@ -579,14 +577,6 @@
 
   .w-\[10\%\] {
     width: 10%;
-  }
-
-  .w-\[40vw\] {
-    width: 40vw;
-  }
-
-  .w-\[40wv\] {
-    width: 40wv;
   }
 
   .w-\[50\%\] {
