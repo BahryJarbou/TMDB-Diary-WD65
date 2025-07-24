@@ -1,110 +1,101 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TMDB Movie Diary WD-65</title>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-
-  <body class="bg-gray-900 text-white flex flex-col">
-    <!-------------------------------------- header section ----------------------------------------->
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>TMDB Movie Diary WD-65</title><script src=https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4></script><body class="bg-gray-900 flex flex-col text-white">
+    
     <header>
-      <nav class="flex justify-between bg-gray-950 rounded-full text-white px-10 p-4 m-8 w-[70%] mx-auto">
-        <!-- class="justify-between bg-black text-white p-4 m-8 w-[70%] mx-auto" -->
+      <nav class="bg-gray-950 flex justify-between m-8 mx-auto p-4 px-10 rounded-full text-white w-[70%]">
+        
         <div class="flex justify-between w-screen">
-          <a href="/index.html">Logo</a>
-          <ul class="flex justify-end gap-4 mr-6">
-            <li class="hover:text-gray-200"><a href="/index.html">Home</a></li>
-            <li class="hover:text-gray-200">
-              <a href="/journal.html">Journal</a>
+          <a href=/index.html>Logo</a>
+          <ul class="flex gap-4 justify-end mr-6">
+            <li class=hover:text-gray-200><a href=/index.html>Home</a></li>
+            <li class=hover:text-gray-200>
+              <a href=/journal.html>Journal</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <!--------------------------------------- main section ------------------------------------------>
+    
 
-    <main class="p-4 px-20 max-w-300 self-center justify-center flex flex-col relative m-auto">
-      <div class="grid grid-cols-[300px_1fr] gap-16 relative">
-        <div class="flex flex-col bg-gray-800 h-fit px-5 py-10 rounded-xl sticky top-10 shadow-lg">
+    <main class="flex flex-col justify-center m-auto max-w-300 p-4 px-20 relative self-center">
+      <div class="gap-16 grid grid-cols-[300px_1fr] relative">
+        <div class="bg-gray-800 flex flex-col h-fit px-5 py-10 rounded-xl shadow-lg sticky top-10">
           <div class="flex flex-col gap-2">
-            <div class="relative">
-              <img src="/search_icon.a9beb93a.png" class="absolute top-1 left-1" width="15px" alt="">
-              <input type="text" name="" class="bg-gray-800 rounded-md pl-[32px] text-xs] border-gray-400 border-1" id="searchInput">
+            <div class=relative>
+              <img src=/search_icon.b63e7710.png class="absolute left-1 top-1" width=15px alt>
+              <input name class="bg-gray-800 border-1 border-gray-400 pl-[32px] rounded-md text-xs]" id=searchInput>
             </div>
-            <p id="openFilter" class="text-xs cursor-pointer">Filters</p>
+            <p id=openFilter class="cursor-pointer text-xs">Filters</p>
           </div>
 
-          <div id="genreFilters" class="flex gap-2 flex-wrap my-4"></div>
+          <div id=genreFilters class="flex flex-wrap gap-2 my-4"></div>
         </div>
       </div>
       <div class="flex justify-center">
-        <div id="movies" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
-          <!-- class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4" -->
-          <!-- Movie cards will appear here -->
+        <div id=movies class="gap-4 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3">
+          
+          
         </div>
       </div>
     </main>
-    <!-------------------------------------- footer section ----------------------------------------->
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-300 mt-16">
-      <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-        <!-- Logo & Description -->
+    
+    
+    <footer class="bg-gray-900 mt-16 text-gray-300">
+      <div class="gap-8 grid grid-cols-1 max-w-7xl md:grid-cols-4 mx-auto px-6 py-12 sm:grid-cols-2">
+        
         <div>
-          <h2 class="text-2xl font-bold mb-4 text-white">🎬 MovieMatrix</h2>
-          <p class="text-sm">
+          <h2 class="font-bold mb-4 text-2xl text-white">🎬 MovieMatrix</h2>
+          <p class=text-sm>
             Explore trending movies, top-rated hits, and hidden gems all in one
             place.
           </p>
         </div>
 
-        <!-- Navigation -->
+        
         <div>
-          <h3 class="text-lg font-semibold mb-4 text-white">Navigate</h3>
+          <h3 class="font-semibold mb-4 text-lg text-white">Navigate</h3>
           <ul class="space-y-2 text-sm">
-            <li><a href="#hero" class="hover:underline">Home</a></li>
-            <li><a href="#search" class="hover:underline">Search</a></li>
-            <li><a href="#hotest" class="hover:underline">Hotest Movies</a></li>
-            <li><a href="#favorites" class="hover:underline">Favorites</a></li>
+            <li><a href=#hero class=hover:underline>Home</a></li>
+            <li><a href=#search class=hover:underline>Search</a></li>
+            <li><a href=#hotest class=hover:underline>Hotest Movies</a></li>
+            <li><a href=#favorites class=hover:underline>Favorites</a></li>
           </ul>
         </div>
 
-        <!-- Categories -->
+        
         <div>
-          <h3 class="text-lg font-semibold mb-4 text-white">Categories</h3>
+          <h3 class="font-semibold mb-4 text-lg text-white">Categories</h3>
           <ul class="space-y-2 text-sm">
-            <li><a href="#" class="hover:underline">Action</a></li>
-            <li><a href="#" class="hover:underline">Drama</a></li>
-            <li><a href="#" class="hover:underline">Sci-Fi</a></li>
-            <li><a href="#" class="hover:underline">Comedy</a></li>
+            <li><a href=# class=hover:underline>Action</a></li>
+            <li><a href=# class=hover:underline>Drama</a></li>
+            <li><a href=# class=hover:underline>Sci-Fi</a></li>
+            <li><a href=# class=hover:underline>Comedy</a></li>
           </ul>
         </div>
 
-        <!-- Social / Contact -->
+        
         <div>
-          <h3 class="text-lg font-semibold mb-4 text-white">Connect</h3>
+          <h3 class="font-semibold mb-4 text-lg text-white">Connect</h3>
           <ul class="space-y-2 text-sm">
-            <li><a href="#" class="hover:underline">Instagram</a></li>
-            <li><a href="#" class="hover:underline">Twitter</a></li>
-            <li><a href="#" class="hover:underline">Email Us</a></li>
+            <li><a href=# class=hover:underline>Instagram</a></li>
+            <li><a href=# class=hover:underline>Twitter</a></li>
+            <li><a href=# class=hover:underline>Email Us</a></li>
           </ul>
         </div>
       </div>
 
-      <!-- Bottom -->
-      <div class="border-t border-gray-700 mt-8">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
+      
+      <div class="border-gray-700 border-t mt-8">
+        <div class="flex flex-col items-center justify-between max-w-7xl mx-auto px-6 py-4 sm:flex-row text-gray-400 text-sm">
           <p>© 2025 MovieMatrix. All rights reserved.</p>
           <div class="mt-2 sm:mt-0">
-            <a href="#" class="hover:underline">Terms</a>
-            <span class="mx-2">|</span>
-            <a href="#" class="hover:underline">Privacy</a>
+            <a href=# class=hover:underline>Terms</a>
+            <span class=mx-2>|</span>
+            <a href=# class=hover:underline>Privacy</a>
           </div>
         </div>
       </div>
     </footer>
 
-    <script src="/journal.1fcc916e.js" type="module" defer=""></script>
+    <script src=/journal.08e95b6f.js type=module defer></script>
   
 
-</body></html>
