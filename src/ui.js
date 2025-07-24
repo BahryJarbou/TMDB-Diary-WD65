@@ -9,7 +9,8 @@ function createCard(movie) {
     "rounded-lg",
     "shadow-lg",
     "min-w-[15vw]",
-    "relative"
+    "relative",
+    "z-10"
   );
   const moviePage = document.createElement("a");
   moviePage.href = `https://www.themoviedb.org/movie/${movie.id}`;
