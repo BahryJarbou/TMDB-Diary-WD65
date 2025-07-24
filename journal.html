@@ -1,55 +1,74 @@
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TMDB Movie Diary WD-65</title>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
-  <body class="bg-gray-900 text-white    flex flex-col">
+  <body class="bg-gray-900 text-white flex flex-col">
     <!-------------------------------------- header section ----------------------------------------->
     <header>
       <nav
         class="flex justify-between bg-gray-950 rounded-full text-white px-10 p-4 m-8 w-[70%] mx-auto"
-        class="justify-between bg-black text-white p-4 m-8 w-[70%] mx-auto"
       >
-        <div class="flex justify-between w-screen ">
+        <!-- class="justify-between bg-black text-white p-4 m-8 w-[70%] mx-auto" -->
+        <div class="flex justify-between w-screen">
           <a href="index.html">Logo</a>
-           <ul class="flex justify-end gap-4 mr-6">
+          <ul class="flex justify-end gap-4 mr-6">
             <li class="hover:text-gray-200"><a href="index.html">Home</a></li>
-            <li class="hover:text-gray-200"><a href="journal.html">Journal</a></li>
+            <li class="hover:text-gray-200">
+              <a href="journal.html">Journal</a>
+            </li>
           </ul>
         </div>
+      </nav>
     </header>
     <!--------------------------------------- main section ------------------------------------------>
 
-    <main class="p-4 px-20  max-w-300 self-center justify-center flex flex-col relative  m-auto">
-
-      <div class="grid grid-cols-[300px_1fr] gap-16  relative ">
-        <div class="flex flex-col bg-gray-800 h-fit px-5 py-10 rounded-xl sticky top-10 shadow-lg ">
-           <div class="flex flex-col gap-2">
-               <div class="relative">
-              <img src="assets/search_icon.png" class="absolute top-1 left-1" width="15px" alt="">
-              <input type="text" name="" class="bg-gray-800 rounded-md pl-[32px] text-xs] border-gray-400 border-1" id="searchInput">
+    <main
+      class="p-4 px-20 max-w-300 self-center justify-center flex flex-col relative m-auto"
+    >
+      <div class="grid grid-cols-[300px_1fr] gap-16 relative">
+        <div
+          class="flex flex-col bg-gray-800 h-fit px-5 py-10 rounded-xl sticky top-10 shadow-lg"
+        >
+          <div class="flex flex-col gap-2">
+            <div class="relative">
+              <img
+                src="assets/search_icon.png"
+                class="absolute top-1 left-1"
+                width="15px"
+                alt=""
+              />
+              <input
+                type="text"
+                name=""
+                class="bg-gray-800 rounded-md pl-[32px] text-xs] border-gray-400 border-1"
+                id="searchInput"
+              />
+            </div>
+            <p id="openFilter" class="text-xs cursor-pointer">Filters</p>
           </div>
-          <p id="openFilter" class="text-xs cursor-pointer">Filters</p>
-           </div>
-         
-                <div id="genreFilters" class="flex gap-2 flex-wrap my-4 hidden"></div>
-        </div>
-        <div class="flex justify-center">
-          <div
-        id="movies"
-        class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4"
-        class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4"
-      >
-        <!-- Movie cards will appear here -->
-      </div>
-      </div>
 
+          <div id="genreFilters" class="flex gap-2 flex-wrap my-4"></div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div
+          id="movies"
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4"
+        >
+          <!-- class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4" -->
+          <!-- Movie cards will appear here -->
+        </div>
+      </div>
     </main>
     <!-------------------------------------- footer section ----------------------------------------->
     <footer></footer>
 
-    <script src="main.js" defer></script>
-
+    <script src="src/main.js" defer></script>
   </body>
 </html>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TMDB Movie Diary WD-65</title>
 
-    <script src="main2.js" defer></script>
+    <script src="src/main2.js" type="module" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
@@ -14,15 +14,18 @@
     <header>
       <nav
         class="flex justify-between bg-gray-950 rounded-full text-white px-10 p-4 m-8 w-[70%] mx-auto"
-        class="justify-between bg-black text-white p-4 m-8 w-[70%] mx-auto"
       >
-        <div class="flex justify-between w-screen ">
+        <!-- class="justify-between bg-black text-white p-4 m-8 w-[70%] mx-auto" -->
+        <div class="flex justify-between w-screen">
           <a href="index.html">Logo</a>
-           <ul class="flex justify-end gap-4 mr-6">
+          <ul class="flex justify-end gap-4 mr-6">
             <li class="hover:text-gray-200"><a href="index.html">Home</a></li>
-            <li class="hover:text-gray-200"><a href="journal.html">Journal</a></li>
+            <li class="hover:text-gray-200">
+              <a href="journal.html">Journal</a>
+            </li>
           </ul>
         </div>
+      </nav>
     </header>
     <!--------------------------------------- main section ------------------------------------------>
 
@@ -31,7 +34,7 @@
       <dialog class="p-[5rem] self-center justify-self-center w-[50%] h-auto">
         <button
           id="closeButton"
-          class="bg-transparent hover:bg-blue-400 text-black rounded-full absolute top-5 right-5"
+          class="bg-transparent hover:bg-[rgba(0,0,0,0.3)] p-4 text-black rounded-full absolute top-5 right-5"
         >
           X
         </button>
@@ -56,8 +59,22 @@
       </h1>
       <div
         id="hotMovies"
-        class="grid grid-cols-10 gap-5 grid-flow-row overflow-x-auto h-[50vh]"
-      ></div>
+        class="flex justify-between gap-[1vw] overflow-x-scroll [&::-webkit-scrollbar]:hidden"
+        none;
+      >
+        <button
+          id="scrollLeft"
+          class="absolute top-[43%] left-[1vb] p-4 text-7xl hover:opacity-50 bg-[rgba(0,0,0,0.3)] rounded z-20"
+        >
+          &#10092;
+        </button>
+        <button
+          id="scrollRight"
+          class="absolute top-[43%] p-4 right-[1vb] text-7xl hover:opacity-50 bg-[rgba(0,0,0,0.3)] rounded z-20"
+        >
+          &#10093;
+        </button>
+      </div>
       <!-----------------------------Part2---------------->
       <div class="flex mx-auto w-[70%] p-10 m-10">
         <div class="space-y-4">
