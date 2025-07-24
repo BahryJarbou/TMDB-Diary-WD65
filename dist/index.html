@@ -50,27 +50,85 @@
         </button>
       </div>
       <!-----------------------------Part2---------------->
-      <div class="flex mx-auto w-[70%] p-10 m-10">
+      <div class="flex justify-around mx-auto w-[70%] p-10 m-10 gap-30">
         <div class="space-y-4">
-          <h1 class="text-4xl">TITEL</h1>
-          <p class="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            aut ullam reprehenderit reiciendis quidem voluptas, consectetur
-            minus aperiam qui dolore?
-          </p>
+          <h1 id="posterTitle" class="text-4xl"></h1>
+          <p id="posterDescription" class=""></p>
 
-          <button id="redirecting2" class="bg-red-700 p-2" type="submit">
-            Get started
-          </button>
+          <button class="bg-red-700 p-2" type="submit">Get started</button>
         </div>
-        <img class="w-100" src="/two.3b4a2a82.jpg" alt="">
+        <img id="posterImage" class="w-[60vw] h-auto" alt="">
       </div>
       <!----------------------------Part3---------------->
-      <div></div>
+      <div class="relative">
+        <div id="recommendations" class="flex justify-between gap-[1vw] overflow-x-scroll [&amp;::-webkit-scrollbar]:hidden" none;=""></div>
+        <button id="scrollLeft2" class="absolute top-[43%] left-[1vb] p-4 text-7xl hover:opacity-50 bg-[rgba(0,0,0,0.3)] rounded z-20">
+          ❬
+        </button>
+        <button id="scrollRight2" class="absolute top-[43%] p-4 right-[1vb] text-7xl hover:opacity-50 bg-[rgba(0,0,0,0.3)] rounded z-20">
+          ❭
+        </button>
+      </div>
     </main>
 
     <!-------------------------------------- footer section ----------------------------------------->
-    <footer></footer>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 mt-16">
+      <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <!-- Logo & Description -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4 text-white">🎬 MovieMatrix</h2>
+          <p class="text-sm">
+            Explore trending movies, top-rated hits, and hidden gems all in one
+            place.
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4 text-white">Navigate</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#hero" class="hover:underline">Home</a></li>
+            <li><a href="#search" class="hover:underline">Search</a></li>
+            <li><a href="#hotest" class="hover:underline">Hotest Movies</a></li>
+            <li><a href="#favorites" class="hover:underline">Favorites</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4 text-white">Categories</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:underline">Action</a></li>
+            <li><a href="#" class="hover:underline">Drama</a></li>
+            <li><a href="#" class="hover:underline">Sci-Fi</a></li>
+            <li><a href="#" class="hover:underline">Comedy</a></li>
+          </ul>
+        </div>
+
+        <!-- Social / Contact -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4 text-white">Connect</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+            <li><a href="#" class="hover:underline">Twitter</a></li>
+            <li><a href="#" class="hover:underline">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="border-t border-gray-700 mt-8">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
+          <p>© 2025 MovieMatrix. All rights reserved.</p>
+          <div class="mt-2 sm:mt-0">
+            <a href="#" class="hover:underline">Terms</a>
+            <span class="mx-2">|</span>
+            <a href="#" class="hover:underline">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   
 
 </body></html>

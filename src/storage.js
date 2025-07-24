@@ -9,6 +9,6 @@ function addMovieToFavs(movie) {
 }
 
 // retrieve movies from local storage
-function getFavs(movies) {
+function getFavs() {
   return JSON.parse(localStorage.getItem("favs")) || [];
 }
