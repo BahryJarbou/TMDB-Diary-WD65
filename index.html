@@ -6,7 +6,7 @@
     <title>TMDB Movie Diary WD-65</title>
 
     <script src="src/main2.js" type="module" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="src/index.css" />
   </head>
 
   <body class="bg-gray-900 text-white">
@@ -57,11 +57,12 @@
       <h1 class="text-3xl font-bold text-white mb-2 justify-self-center">
         Hotest Movies
       </h1>
-      <div
-        id="hotMovies"
-        class="flex justify-between gap-[1vw] overflow-x-scroll [&::-webkit-scrollbar]:hidden"
-        none;
-      >
+      <div class="relative">
+        <div
+          id="hotMovies"
+          class="flex justify-between gap-[1vw] overflow-x-scroll [&::-webkit-scrollbar]:hidden"
+          none;
+        ></div>
         <button
           id="scrollLeft"
           class="absolute top-[43%] left-[1vb] p-4 text-7xl hover:opacity-50 bg-[rgba(0,0,0,0.3)] rounded z-20"
@@ -96,7 +97,6 @@
     </main>
 
     <!-------------------------------------- footer section ----------------------------------------->
-
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300 mt-16">
       <div

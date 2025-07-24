@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDB Movie Diary WD-65</title>
+
+    <script src="/TMDB-Diary-WD65.14ca6d56.js" type="module" defer=""></script>
+    <link rel="stylesheet" href="/TMDB-Diary-WD65.61d3354a.css">
+  </head>
+
+  <body class="bg-gray-900 text-white">
+    <!-------------------------------------- header section ----------------------------------------->
+    <header>
+      <nav class="flex justify-between bg-gray-950 rounded-full text-white px-10 p-4 m-8 w-[70%] mx-auto">
+        <!-- class="justify-between bg-black text-white p-4 m-8 w-[70%] mx-auto" -->
+        <div class="flex justify-between w-screen">
+          <a href="/index.html">Logo</a>
+          <ul class="flex justify-end gap-4 mr-6">
+            <li class="hover:text-gray-200"><a href="/index.html">Home</a></li>
+            <li class="hover:text-gray-200">
+              <a href="/journal.html">Journal</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--------------------------------------- main section ------------------------------------------>
+
+    <main class="p-4">
+      <!---------------------------------Part1---------------->
+      <dialog class="p-[5rem] self-center justify-self-center w-[50%] h-auto">
+        <button id="closeButton" class="bg-transparent hover:bg-[rgba(0,0,0,0.3)] p-4 text-black rounded-full absolute top-5 right-5">
+          X
+        </button>
+      </dialog>
+      <form class="flex justify-center gap-5 w-[50%] justify-self-center items-center mb-10">
+        <input id="searchInput" type="text" class="border p-2 w-[50%]" placeholder="Enter name of movie..."><button id="searchButton" class="bg-blue-500 hover:bg-blue-400 text-white p-2 rounded w-[10%]">
+          search
+        </button>
+      </form>
+      <h1 class="text-3xl font-bold text-white mb-2 justify-self-center">
+        Hotest Movies
+      </h1>
+      <div class="relative">
+        <div id="hotMovies" class="flex justify-between gap-[1vw] overflow-x-scroll [&amp;::-webkit-scrollbar]:hidden" none;=""></div>
+        <button id="scrollLeft" class="absolute top-[43%] left-[1vb] p-4 text-7xl hover:opacity-50 bg-[rgba(0,0,0,0.3)] rounded z-20">
+          ❬
+        </button>
+        <button id="scrollRight" class="absolute top-[43%] p-4 right-[1vb] text-7xl hover:opacity-50 bg-[rgba(0,0,0,0.3)] rounded z-20">
+          ❭
+        </button>
+      </div>
+      <!-----------------------------Part2---------------->
+      <div class="flex mx-auto w-[70%] p-10 m-10">
+        <div class="space-y-4">
+          <h1 class="text-4xl">TITEL</h1>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            aut ullam reprehenderit reiciendis quidem voluptas, consectetur
+            minus aperiam qui dolore?
+          </p>
+
+          <button id="redirecting2" class="bg-red-700 p-2" type="submit">
+            Get started
+          </button>
+        </div>
+        <img class="w-100" src="/two.3b4a2a82.jpg" alt="">
+      </div>
+      <!----------------------------Part3---------------->
+      <div></div>
+    </main>
+
+    <!-------------------------------------- footer section ----------------------------------------->
+    <footer></footer>
+  
+
+</body></html>

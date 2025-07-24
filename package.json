@@ -1,0 +1,15 @@
+{
+  "name": "tmdb-diary",
+  "source": [
+    "index.html",
+    "journal.html"
+  ],
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "@tailwindcss/postcss": "^4.1.11"
+  }
+}
