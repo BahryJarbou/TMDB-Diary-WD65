@@ -2,6 +2,7 @@ export {
   fetchSearchMovies,
   fetchHotMovies,
   fetchPopularMovies,
+  fetchRecommendations,
   IMAGE_BASE,
   QUERY_SUFFIX,
 };
@@ -62,5 +63,19 @@ async function fetchPopularMovies() {
   } catch (error) {
     console.error("Error fetching popular movies:", error);
     return [];
+  }
+}
+
+// fetch recommendations
+async function fetchRecommendations(id) {
+  try {
+    const res = await fetch(
+      `https://api.themoviedb.org/3/movie/${id}/recommendations?language=en-US&page=1`,
+      options
+    );
+    const data = await res.json();
+    return data.results;
+  } catch (err) {
+    console.error("error fetching recommendations", err);
   }
 }

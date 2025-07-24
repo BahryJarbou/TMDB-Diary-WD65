@@ -32,7 +32,6 @@ function createCard(movie) {
     "text-nowrap"
   );
   const overview = document.createElement("p");
-  console.log(movie.overview);
   overview.innerText = movie.overview.slice(0, 100) + "...";
   overview.classList.add("text-sm", "text-gray-400");
   const releaseDate = document.createElement("p");
