@@ -1,6 +1,10 @@
-export { createCard, displayMovies };
-import { IMAGE_BASE } from "./network.js";
-import { addMovieToFavs } from "./storage.js";
+export { createCard, displayMovies, populateFavs };
+import { IMAGE_BASE, fetchRecommendations } from "./network.js";
+import { addMovieToFavs, getFavs, getFavsIDs } from "./storage.js";
+
+//ui elements
+const recommendations = document.querySelector("#recommendations");
+
 // create movie card
 function createCard(movie) {
   const card = document.createElement("div");
@@ -45,8 +49,14 @@ function createCard(movie) {
   addToFavsBtn.className =
     "bg-transparent hover:bg-blue-400 font-extrabold text-2xl text-black rounded-full bolded justify-self-start absolute right-5 top-5";
   addToFavsBtn.addEventListener("click", () => {
+    const favsIDs = getFavsIDs();
+    if (favsIDs.includes(movie.id)) {
+      alert("movie alread in favorites");
+      return;
+    }
     addMovieToFavs(movie);
     alert("Movie added to favorites!");
+    populateFavs();
   });
   moviePage.appendChild(img);
   infoContainer.appendChild(title);
@@ -68,5 +78,48 @@ function displayMovies(movies, container, onClick) {
       card.addEventListener("click", () => onClick(movie));
     }
     container.appendChild(card);
+  });
+}
+
+// populate recommendations
+async function populateFavs() {
+  console.log("being called");
+  const favs = getFavs();
+  if (favs.length === 0) {
+    recommendations.innerText =
+      "Add Some movies to your favorites and we'll recommend something for you!";
+    recommendations.className = "text-6xl";
+    return;
+  }
+  recommendations.innerText = "";
+  const randFav = favs[Math.floor(Math.random() * favs.length)];
+  const recommends = await fetchRecommendations(randFav.id);
+  recommends.forEach((movie) => {
+    const card = createCard(movie);
+    recommendations.appendChild(card);
+  });
+}
+
+// populate recommendations
+async function populateFavs() {
+  console.log("being called");
+  const favs = getFavs();
+  if (favs.length === 0) {
+    const noRecommendations = document.createElement("p");
+    noRecommendations.innerText =
+      "Add Some movies to your favorites and we'll recommend something for you!";
+    noRecommendations.className = "text-6xl";
+    recommendations.appendChild(noRecommendations);
+    return;
+  }
+  while (recommendations.firstChild) {
+    console.log(recommendations.firstChild);
+    recommendations.removeChild(recommendations.firstChild);
+  }
+  const randFav = favs[Math.floor(Math.random() * favs.length)];
+  const recommends = await fetchRecommendations(randFav.id);
+  recommends.forEach((movie) => {
+    const card = createCard(movie);
+    recommendations.appendChild(card);
   });
 }

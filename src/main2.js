@@ -1,11 +1,5 @@
-import {
-  fetchSearchMovies,
-  fetchHotMovies,
-  fetchRecommendations,
-  IMAGE_BASE,
-} from "./network.js";
-import { createCard } from "./ui.js";
-import { getFavs } from "./storage.js";
+import { fetchSearchMovies, fetchHotMovies, IMAGE_BASE } from "./network.js";
+import { createCard, populateFavs } from "./ui.js";
 const form = document.querySelector("form");
 const dialog = document.querySelector("dialog");
 const searchButton = document.querySelector("#searchButton");
@@ -71,33 +65,16 @@ scrollRight2.addEventListener("click", () => {
 // retrieving and rendering hot movies on page load
 window.addEventListener("load", async () => {
   const hotMovies = await fetchHotMovies();
-  posterTitle.innerHTML = hotMovies[0].title;
-  posterDescription.innerText = hotMovies[0].overview;
-  posterImage.src = IMAGE_BASE + hotMovies[0].poster_path;
+  const index = Math.floor(Math.random() * hotMovies.length);
+  posterTitle.innerHTML = hotMovies[index].title;
+  posterDescription.innerText = hotMovies[index].overview;
+  posterImage.src = IMAGE_BASE + hotMovies[index].poster_path;
   hotMovies.forEach((hotMovie) => {
     const card = createCard(hotMovie);
     hotMoviesContainer.appendChild(card);
   });
+  populateFavs();
 });
-
-// populate recommendations
-async function populateFavs() {
-  console.log("being called");
-  const favs = getFavs();
-  if (favs.length === 0) {
-    recommendations.innerText =
-      "Add Some movies to your favorites and we'll recommend something for you!";
-    recommendations.className = "text-6xl";
-    return;
-  }
-  recommendations.innerText = "";
-  const randFav = favs[Math.floor(Math.random() * favs.length)];
-  const recommends = await fetchRecommendations(randFav.id);
-  recommends.forEach((movie) => {
-    const card = createCard(movie);
-    recommendations.appendChild(card);
-  });
-}
 
 // populate recommendations on local storage changing
 window.addEventListener("storage", () => {
