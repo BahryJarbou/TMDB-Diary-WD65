@@ -1,4 +1,4 @@
-export { createCard };
+export { createCard, displayMovies };
 import { IMAGE_BASE } from "./network.js";
 import { addMovieToFavs } from "./storage.js";
 // create movie card
@@ -58,4 +58,16 @@ function createCard(movie) {
   card.appendChild(infoContainer);
   card.appendChild(addToFavsBtn);
   return card;
+}
+
+//displayMovies-----
+function displayMovies(movies, container, onClick) {
+  container.innerHTML = "";
+  movies.forEach((movie) => {
+    const card = createCard(movie);
+    if (typeof onClick === "function") {
+      card.addEventListener("click", () => onClick(movie));
+    }
+    container.appendChild(card);
+  });
 }

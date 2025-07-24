@@ -1,4 +1,10 @@
-export { fetchSearchMovies, fetchHotMovies, IMAGE_BASE, QUERY_SUFFIX };
+export {
+  fetchSearchMovies,
+  fetchHotMovies,
+  fetchPopularMovies,
+  IMAGE_BASE,
+  QUERY_SUFFIX,
+};
 // API data
 const API_KEY = "ae9417b72a04e975455b2ed2ac2a7001";
 const BASE_URL = "https://api.themoviedb.org/3";
@@ -41,5 +47,20 @@ async function fetchHotMovies() {
     return data.results;
   } catch (error) {
     console.error("Error fetching popular movies:", error);
+  }
+}
+
+//fetchPopularMovies---
+
+async function fetchPopularMovies() {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/movie/popular?language=en-US&page=1&api_key=${API_KEY}`
+    );
+    const data = await response.json();
+    return data.results;
+  } catch (error) {
+    console.error("Error fetching popular movies:", error);
+    return [];
   }
 }
